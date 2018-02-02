@@ -1,0 +1,26 @@
+BALL : title=Mikasa_MVA_200, number=3, price=160;
+BALL : title=Select_Futsal_Master, number=3, price=99;
+BALL : title=Select_Futsal_Master_2122, number=3, price=100;
+BALL : title=Molten_BGM7Х, number=3, price=80;
+BALL : title=adidas_krasava_sala_65, number=3, price=125;
+
+RACKET : title=DONIC_WALDNER_900, number=3, price=66;
+RACKET : title=Dragon_EDC5001, number=3, price=33;
+RACKET : title=Giant_Dragon_ST12703, number=3, price=72;
+RACKET : title=undays_ST12201, number=3, price=15;
+RACKET : entity=racket, title=Giant_Dragon_ST12401, number=3, price=17;
+
+SKATES : title=Sundays_PW-219, number=3, price=25;
+SKATES : title=Sundays_PW-206G, number=3, price=26;
+
+SKIING: title=Odwin_New, number=3, price=35;
+SKIING : title=Grace_Velvet_FS-101, number=3, price=30;
+
+BIKE : title=LIV_Tempt_2, number=3, price=10;
+BIKE : title=LTD_STELLA_760, number=3, price=10;
+BIKE : title=LTD_GRAVITY_980, number=3, price=40;
+BIKE : title=LTD_GRAVITY_1000, number=3, price=10;
+
+SNOWBOARD : title=LIV_Tempt_2, number=3, price=100;
+SNOWBOARD : title=LTD_STELLA_760, number=3, price=100;
+SNOWBOARD : title=LTD_GRAVITY_1000, number=3, price=100;
