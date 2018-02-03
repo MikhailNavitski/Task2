@@ -1,10 +1,10 @@
-package by.tc.task01.dao.rent;
+package by.tc.task01.entity.client;
 
 import by.tc.task01.entity.SportEquipment;
 
 import java.io.Serializable;
 
-public class Renter implements Serializable {
+public class Renter implements Serializable{
     private String name;
     private String firstItem;
     private String secondItem;
@@ -21,6 +21,7 @@ public class Renter implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getFirstItem() {
         return firstItem;
     }
@@ -54,17 +55,19 @@ public class Renter implements Serializable {
     }
 
     public void setItem(SportEquipment equipment) {
+
         if (firstItem == null) {
+
             firstItem = equipment.toString();
             availableItems--;
 
         }
-        if (secondItem == null) {
+        else if (secondItem == null) {
             secondItem = equipment.toString();
             availableItems--;
 
         }
-        if (thirdItem == null) {
+        else if (thirdItem == null) {
             thirdItem = equipment.toString();
             availableItems--;
 
@@ -72,20 +75,32 @@ public class Renter implements Serializable {
 
     }
 
-    public void incAvailableItems() {
-        availableItems++;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Renter renter = (Renter) o;
+
+        if (availableItems != renter.availableItems) return false;
+        if (name != null ? !name.equals(renter.name) : renter.name != null) return false;
+        if (firstItem != null ? !firstItem.equals(renter.firstItem) : renter.firstItem != null) return false;
+        if (secondItem != null ? !secondItem.equals(renter.secondItem) : renter.secondItem != null) return false;
+        return thirdItem != null ? thirdItem.equals(renter.thirdItem) : renter.thirdItem == null;
     }
 
-    public boolean hasRentedItems() {
-        if (firstItem == null && secondItem == null && thirdItem == null) {
-            return false;
-        }
-        else return true;
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (firstItem != null ? firstItem.hashCode() : 0);
+        result = 31 * result + (secondItem != null ? secondItem.hashCode() : 0);
+        result = 31 * result + (thirdItem != null ? thirdItem.hashCode() : 0);
+        result = 31 * result + availableItems;
+        return result;
     }
-
 
     @Override
     public String toString() {
-        return name + " " ;
+        return name + " ";
     }
 }

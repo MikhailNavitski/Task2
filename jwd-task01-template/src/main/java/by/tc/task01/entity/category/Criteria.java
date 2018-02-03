@@ -3,24 +3,19 @@ package by.tc.task01.entity.category;
 import java.util.HashMap;
 import java.util.Map;
 
-public class   Criteria <E>{
-    private Map<E, Object> criteria = new HashMap<>();
-    private String applianceType;
+public class   Criteria {
+    private Map<String, String> criteria = new HashMap<>();
 
-    public void add(E searchCriteria, Object value) {
+    public void add(String searchCriteria, String value) {
         criteria.put(searchCriteria, value);
     }
 
-    public Map<E, Object> getCriteria() {
+    public Map<String, String> getCriteria() {
         return criteria;
     }
-
-    public String getApplianceType() {
-        return applianceType;
+    public void remove(String  searchCriteria ){
+        criteria.remove(searchCriteria);
     }
 
-    public void setApplianceType(String applianceType) {
-        this.applianceType = applianceType;
-    }
 
 }

@@ -26,7 +26,7 @@ public class SportEquipmentDAOImpl implements SportEquipmentDAO {
                 if (!fileLine.isEmpty()) {
                     String[] value = getValue(fileLine);
                     sportEquipment = SportEquipmentCreator.maleSportEquipment(value);
-                    shop = createShop(sportEquipment, Integer.parseInt(value[4]));
+                    shop = createShop(sportEquipment, Integer.parseInt(value[3]));
                 }
 
             }
