@@ -26,7 +26,6 @@ public class RentedUnits {
             rentedUnits.remove(equipment);
             equipment.setQuantity(equipment.getQuantity() + currentQuantity);
             rentedUnits.put(equipment, equipment.getQuantity());
-            return;
         }
         rentedUnits.put(equipment, quantity);
     }
