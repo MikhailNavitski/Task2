@@ -8,11 +8,9 @@ import java.io.InputStreamReader;
 
 public class AddingClientService {
 
-    private static BufferedReader reader;
-
     public static Renter createRenter() throws IOException {
         Renter renter = new Renter();
-        reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите ваше имя");
         String name = reader.readLine();
         renter.setName(name);

@@ -24,17 +24,8 @@ public class Shop implements Serializable {
         goods.put(equipment, value);
     }
 
-
-    public static void rent(Renter renter, Shop shop) {
-
-        if (clientRentedUnits.containsKey(renter)) {
-            System.out.println("На данное имя уже были выданы товары");
-        } else {
-            RentedUnits units;
-            units = Rent.rentSportEquipment(shop, renter);
-            clientRentedUnits.put(renter, units);
-        }
-
+    public void add(Renter renter, RentedUnits rentedUnits) {
+        clientRentedUnits.put(renter, rentedUnits);
     }
 
 

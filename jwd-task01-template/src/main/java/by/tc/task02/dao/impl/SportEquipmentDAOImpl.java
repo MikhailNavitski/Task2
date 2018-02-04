@@ -2,15 +2,18 @@ package by.tc.task02.dao.impl;
 
 import by.tc.task02.dao.DAOFactory;
 import by.tc.task02.dao.creator.SportEquipmentCreator;
+import by.tc.task02.dao.util.RentedUnits;
+import by.tc.task02.dao.util.Searcher;
 import by.tc.task02.dao.util.Shop;
 import by.tc.task02.dao.SportEquipmentDAO;
 import by.tc.task02.dao.SportEquipmentFileReader;
-import by.tc.task02.entity.Renter;
 import by.tc.task02.entity.SportEquipment;
+import by.tc.task02.entity.category.Criteria;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
 
 public class SportEquipmentDAOImpl implements SportEquipmentDAO {
 
@@ -36,8 +39,16 @@ public class SportEquipmentDAOImpl implements SportEquipmentDAO {
     }
 
     @Override
-    public void rentSportEquipment(Renter renter, Shop shop) {
-        Shop.rent(renter, shop);
+    public void addUnits(RentedUnits units,SportEquipment equipment) {
+        units.addUnit(equipment);
+    }
+
+
+    @Override
+    public SportEquipment searchGoods(Criteria criteria, List<SportEquipment> rentedUnits, Shop shop) {
+        SportEquipment equipment;
+        equipment = Searcher.searchGoodsForName(criteria, rentedUnits, shop);
+        return equipment;
     }
 
     private static String[] getValue(String fileLine) {

@@ -17,28 +17,22 @@ public class SportEquipmentCreator {
     private static Category getCategory(String value) {
 
         if (value.contains("BALL")) {
-            Category category = Category.BALL;
-            return category;
+            return Category.BALL;
         }
         if (value.contains("RACKET")) {
-            Category category = Category.RACKET;
-            return category;
+            return Category.RACKET;
         }
         if (value.contains("SKATES")) {
-            Category category = Category.SKATES;
-            return category;
+            return Category.SKATES;
         }
         if (value.contains("SKIING")) {
-            Category category = Category.SKIING;
-            return category;
+            return Category.SKIING;
         }
         if (value.contains("BIKE")) {
-            Category category = Category.BIKE;
-            return category;
+            return Category.BIKE;
         }
         if (value.contains("SNOWBOARD")) {
-            Category category = Category.SNOWBOARD;
-            return category;
+            return Category.SNOWBOARD;
         }
         return null;
     }

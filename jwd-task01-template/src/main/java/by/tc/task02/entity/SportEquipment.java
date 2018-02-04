@@ -44,13 +44,6 @@ public class SportEquipment {
         this.quantity = quantity;
     }
 
-    public void incQuantity() {
-        quantity++;
-    }
-
-    public void decQuantity() {
-        quantity--;
-    }
 
     @Override
     public boolean equals(Object o) {

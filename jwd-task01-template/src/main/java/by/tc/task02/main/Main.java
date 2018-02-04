@@ -1,6 +1,6 @@
 package by.tc.task02.main;
 
-import by.tc.task02.dao.util.*;
+import by.tc.task02.dao.util.Shop;
 import by.tc.task02.entity.Renter;
 import by.tc.task02.main.exception.FileReaderException;
 import by.tc.task02.main.sportequipment_info.SportEquipmentInfo;
@@ -18,9 +18,11 @@ public class Main {
 
             Shop shop;
             Renter renter;
+
             ServiceFactory factory = ServiceFactory.getInstance();
             SportEquipmentService service = factory.getSportEquipmentService();
             shop = service.find();
+
             System.out.println("Товары , которые находятся в магазине");
             System.out.println("--------------------------------------");
             SportEquipmentInfo.printGoods(shop);
@@ -29,21 +31,19 @@ public class Main {
                 //Клиент1///
 
             renter = AddingClientService.createRenter();
-            service.rentSportEquipment(renter, shop);
+            Rent.rentSportEquipment(shop,renter);
             service.writeToFile(shop);
             service.readingFile();
 
                 //Клиент2///
 
             renter = AddingClientService.createRenter();
-            service.rentSportEquipment(renter, shop);
+            Rent.rentSportEquipment(shop,renter);
             service.writeToFile(shop);
             service.readingFile();
 
 
-        } catch (FileReaderException e) {
-            e.getMessage();
-        } catch (IOException e) {
+        } catch (FileReaderException | IOException e) {
             e.getMessage();
         }
 
