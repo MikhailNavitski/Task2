@@ -2,15 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e56144e-50fb-4806-863a-6d84a48ef9a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/SportEquipmentDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/SportEquipmentFileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/creator/SportEquipmentCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/impl/SportEquipmentFileReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/Shop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/SportEquipmentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/impl/SportEquipmentServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/FileReaderFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentFileReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipmentCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentFileReaderImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/AddingClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Rent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/SportEquipmentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/SportEquipmentServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/rentedEquipment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/DAOFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/FileReaderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/SportEquipmentDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/SportEquipmentFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/creator/SportEquipmentCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/file/FileApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/impl/SportEquipmentDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/impl/SportEquipmentFileReaderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/dao/shop/Shop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/SportEquipment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/category/Category.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/category/Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/client/AddingClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/client/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/client/Rent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/client/RentedUnits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/entity/client/Renter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/main/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/main/PrintInformation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/main/exception/FileReaderException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/main/sportequipment_info/SportEquipmentInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/service/ServiceFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/service/SportEquipmentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/by/tc/task01/service/impl/SportEquipmentServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/rentedEquipment.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/DAOFactory.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/DAOFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/impl/SportEquipmentDAOImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/SportEquipment.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/SportEquipment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Category.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/category/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Criteria.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/category/Criteria.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/PrintInformation.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/PrintInformation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/exception/FileReaderException.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/exception/FileReaderException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/sportequipment_info/SportEquipmentInfo.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/sportequipment_info/SportEquipmentInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/ServiceFactory.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/ServiceFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Criteria.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Criteria.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/shop.txt" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/shop.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/sportEquipment.txt" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/sportEquipment.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/source_name.properties" afterPath="$PROJECT_DIR$/jwd-task01-template/src/main/resources/source_name.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/shop.txt" afterPath="$PROJECT_DIR$/jwd-task01-template/target/classes/shop.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jwd-task01-template/target/classes/source_name.properties" afterPath="$PROJECT_DIR$/jwd-task01-template/target/classes/source_name.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/jwd-task01-template/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,37 +76,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sportEquipment.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/sportEquipment.txt">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+            <state relative-caret-position="697">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java">
+      <file leaf-file-name="SportEquipmentServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/impl/SportEquipmentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="112" lean-forward="true" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
+            <state relative-caret-position="612">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java">
+      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="391">
+              <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,13 +110,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Rent.java">
+      <file leaf-file-name="RentedUnits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/RentedUnits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            <state relative-caret-position="527">
+              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +129,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -104,31 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/PrintInformation.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentDAO.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/MainMenu.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/TennisBall.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/exception/FileReaderException.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/SportEquipmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/SportEquipmentService.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/bike.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/ApplianceDirectorImpl.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/ApplianceDirectorFactory.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/SportEquipmentDirectorFactory.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/Command.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/impl/ApplianceDirectorImpl.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/ApplianceDirector.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/SportEquipmentDirector.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/impl/SportEquipmentDirectorImpl.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/CommandCreator.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/sportequipment_info/SportEquipmentInfo.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Ball.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Bike.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Racket.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Skate.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Skiing.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/BallCreator.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/BikeCreator.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/RacketCreator.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SkateCreator.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SkiingCreator.java" />
@@ -137,24 +153,49 @@
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/rent/Renter.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Category.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipment.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/SportEquipment.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/GoodsFinder.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipmentCreator.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/rent/RentedUnits.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/rent/Client.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/addingClient.java" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/GoodsFinder.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Criteria.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/AddingClient.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/resources/shop.txt" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/resources/sportEquipment.txt" />
-        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Rent.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipmentCreator.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/Renter.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/Renter.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/Shop.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Renter.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/Command.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/AddingClient.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/util/Shop.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/RentedUnits.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/resources/source_name.properties" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/client/Client.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/client/AddingClient.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/SportEquipment.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/RentService.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/RentService.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentDAO.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentFileReader.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/SportEquipmentService.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentFileReaderImpl.java" />
         <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Rent.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/SportEquipmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/Rent.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/Searcher.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/Shop.java" />
+        <option value="$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/Main.java" />
       </list>
     </option>
   </component>
@@ -202,7 +243,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +286,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
@@ -252,7 +295,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,9 +305,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
@@ -273,8 +316,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
@@ -283,9 +327,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task2" type="b2602c69:ProjectViewProjectNode" />
@@ -294,8 +337,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="jwd-task01-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,46 +358,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="jwd-task01-template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task01" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="sportequipment_info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="jwd-task01-template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="task02" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/5 лаба/JWD_Task01_OOP-master" />
+    <property name="last_opened_file_path" value="D:/DDranitskiEquipmentShop-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
@@ -353,6 +386,7 @@
       <recent name="by.tc.task01.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\task2\jwd-task01-template\src\main\java\by\tc\task01\util" />
       <recent name="C:\task2\jwd-task01-template\src\main\java\by\tc\task01\dao\command" />
       <recent name="C:\task2\jwd-task01-template\src\main\java\by\tc\task01\service" />
       <recent name="C:\task2\jwd-task01-template\src\main\java\by\tc\task01\dao\impl" />
@@ -374,7 +408,7 @@
   <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="by.tc.task01.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="by.tc.task02.main.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -492,45 +526,46 @@
       <workItem from="1517559052961" duration="2933000" />
       <workItem from="1517589159152" duration="967000" />
       <workItem from="1517646704987" duration="702000" />
-      <workItem from="1517649162707" duration="33401000" />
+      <workItem from="1517649162707" duration="34956000" />
+      <workItem from="1517735967727" duration="22104000" />
+      <workItem from="1517764577703" duration="7011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96526000" />
+    <option name="totallyTimeSpent" value="127196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17391305" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25641027" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31982943" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08361204" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09030101" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23400854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979933" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,80 +576,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/exception/FileReaderException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/ServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/SportEquipmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Sking.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/SportEquipmentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/BasketBall.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipmentCreator.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/SportEquipmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Ball.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Bike.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Racket.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Skate.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/RacketCreator.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SkateCreator.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SkiingCreator.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/BikeCreator.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/Skiing.java" />
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/rent/RentUnit.java" />
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/BallCreator.java" />
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/impl/SportEquipmentDirectorImpl.java" />
@@ -622,39 +588,9 @@
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/CommandCreator.java" />
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/SportEquipmentDirector.java" />
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/command/SportEquipmentDirectorFactory.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentFileReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/SearchCriteria.java" />
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/FileReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/GoodsFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/sportequipment_info/SportEquipmentInfo.java">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/GoodsFinder.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/sportequipment_info/SportEquipmentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -662,63 +598,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/impl/SportEquipmentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/GoodsFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/AddingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/SportEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/PrintInformation.java">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/GoodsFinder.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Client.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Renter.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/AddingClient.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/PrintInformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -726,109 +610,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/source_name.properties">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Rent.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/category/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="73" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="73" />
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/shop.txt">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/category/Criteria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/category/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/rentedEquipment.txt">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/Rent.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/Client.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/RentedUnits.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/AddingClient.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/util/client/Renter.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/util/Command.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/ObjectInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="1538" column="0" lean-forward="false" selection-start-line="1538" selection-start-column="0" selection-end-line="1538" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/RentedUnits.java">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/rentedEquipment.txt" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/shop.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/creator/SportEquipmentCreator.java">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/source_name.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/entity/client/Rent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="112" lean-forward="true" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/resources/sportEquipment.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/client/Client.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/creator/SportEquipmentCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/SportEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="75" column="72" lean-forward="false" selection-start-line="75" selection-start-column="72" selection-end-line="75" selection-end-column="72" />
+          <folding>
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/service/impl/RentService.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/file/FileApp.java" />
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/FileReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task01/dao/shop/Shop.java">
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/SportEquipmentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/SportEquipmentFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/SportEquipmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/impl/SportEquipmentFileReaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/entity/Renter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/impl/SportEquipmentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/client/AddingClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/dao/util/RentedUnits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwd-task01-template/src/main/java/by/tc/task02/service/impl/SportEquipmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

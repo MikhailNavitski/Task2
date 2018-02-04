@@ -1,0 +1,5 @@
+
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(­βΎ8
+Dsquid:S1066"/Merge this if statement with the enclosing one.(Ό±β
+hsquid:UselessImportCheck":Remove this unused import 'by.tc.task01.dao.file.FileApp'.(τ’Γϋÿÿÿÿ8χτ―–,
